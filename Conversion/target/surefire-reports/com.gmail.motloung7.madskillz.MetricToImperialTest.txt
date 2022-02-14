@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.gmail.motloung7.madskillz.MetricToImperialTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.gmail.motloung7.madskillz.MetricToImperialTest
+testConvertCmToInch  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.gmail.motloung7.madskillz.service.ConversionObject.metricToImperial(java.lang.Double, java.lang.Double)" because "this.conversionObject" is null
+	at com.gmail.motloung7.madskillz.MetricToImperialTest.testConvertCmToInch(MetricToImperialTest.java:43)
+
+testConvertKmToMiles  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.gmail.motloung7.madskillz.service.ConversionObject.metricToImperial(java.lang.Double, java.lang.Double)" because "this.conversionObject" is null
+	at com.gmail.motloung7.madskillz.MetricToImperialTest.testConvertKmToMiles(MetricToImperialTest.java:63)
+
+testConvertLitreTogallon  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.gmail.motloung7.madskillz.service.ConversionObject.metricToImperial(java.lang.Double, java.lang.Double)" because "this.conversionObject" is null
+	at com.gmail.motloung7.madskillz.MetricToImperialTest.testConvertLitreTogallon(MetricToImperialTest.java:73)
+
+testConvertMetersToFeet  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.gmail.motloung7.madskillz.service.ConversionObject.metricToImperial(java.lang.Double, java.lang.Double)" because "this.conversionObject" is null
+	at com.gmail.motloung7.madskillz.MetricToImperialTest.testConvertMetersToFeet(MetricToImperialTest.java:53)
+
+testConvertCelsToFahren  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.gmail.motloung7.madskillz.service.ConversionObject.metricToImperial(java.lang.Double, java.lang.Double)" because "this.conversionObject" is null
+	at com.gmail.motloung7.madskillz.MetricToImperialTest.testConvertCelsToFahren(MetricToImperialTest.java:84)
+
+testConvertKgToPound  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.gmail.motloung7.madskillz.service.ConversionObject.metricToImperial(java.lang.Double, java.lang.Double)" because "this.conversionObject" is null
+	at com.gmail.motloung7.madskillz.MetricToImperialTest.testConvertKgToPound(MetricToImperialTest.java:94)
+
